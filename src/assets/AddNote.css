@@ -1,0 +1,148 @@
+#AddNotecon{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.9);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#AddTitle{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    background-color: inherit;
+    border: none;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray
+}
+#AddContent{
+    height: 80px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    background-color: inherit;
+    border: none;
+}
+
+#Addbtn{
+    width: 150px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+#Addbtn:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+#AddNotescard{
+    width: 900px;
+    height: 165px;
+    margin: 5px 0px;
+    border: 2px solid #f6f6f6;
+    background-color: #fe9b72;
+    border-radius: 20px;
+}
+
+#AddNotestitle{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+#AddNotescontent{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+@media (max-width:1024px) {
+
+    #AddNotescard{
+        width: 800px;
+    }
+    
+}
+
+@media (max-width:915px) {
+    #AddNotescard{
+        width: 700px;
+    }
+    
+}
+
+@media (max-width:802px) {
+
+    #AddNotescard{
+        width: 600px;
+        height: 200px;
+    }
+    #AddNotestitle{
+        height: 45px;
+    }   
+    #AddNotescontent{
+        height: 155px;
+    }
+    #AddTitle{
+        height: 40px;
+    }
+    #AddContent{
+        height: 125px;
+    }
+}
+
+@media (max-width:630px) {
+
+    #AddNotescard{
+        width: 400px;
+        height: 200px;
+    }
+    #AddNotestitle{
+        height: 45px;
+    }   
+    #AddNotescontent{
+        height: 155px;
+    }
+    #AddTitle{
+        height: 40px;
+    }
+    #AddContent{
+        height: 125px;
+    }
+}
+
+@media (max-width:420px) {
+
+    #AddNotescard{
+        width: 310px;
+        height: 260px;
+    }
+    #AddNotestitle{
+        height: 45px;
+    }   
+    #AddNotescontent{
+        height: 215px;
+    }
+    #AddTitle{
+        height: 40px;
+    }
+    #AddContent{
+        height: 185px;
+    }
+
+    #Setstyle{
+        height: 90px;
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
